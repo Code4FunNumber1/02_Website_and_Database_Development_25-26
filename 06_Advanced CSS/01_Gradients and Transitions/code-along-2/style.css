@@ -16,6 +16,12 @@ body {
     display: grid;
     place-items: center;
     padding: 4rem 1.5rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-image:
+            radial-gradient(circle at 10% 20%, rgba(40, 70, 100, 0.8) 20%, rgba(0, 175, 70, 0.2) 100%),
+            linear-gradient(135deg, #6a5af9, 0%, #ca2e41 45%, chocolate 100%);
 }
 
 .hero__content {
@@ -45,6 +51,7 @@ body {
     color: #5a32ea;
     font-weight: 700;
     text-decoration: none;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 50);
 }
 
 .btn:hover {
@@ -65,7 +72,12 @@ body {
     padding: 1.25rem;
     border-radius: 16px;
     color: white;
+    transition: transform .1s ease-in-out;
+    background-image:
+            radial-gradient(circle at 10% 20%, rgba(40, 70, 100, 0.8) 20%, rgba(0, 175, 70, 0.2) 100%);
 }
 
 .card:hover {
+    transform: translate(5px, 5px);
+    transition: .1s ease-in-out;
 }

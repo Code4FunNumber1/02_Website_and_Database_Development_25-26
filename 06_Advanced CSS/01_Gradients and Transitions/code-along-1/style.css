@@ -5,7 +5,9 @@
     place-items: center;
     padding: 4rem 1.5rem;
 
-
+    background-image:
+            radial-gradient(circle at 10% 20%, rgba(0, 0, 100, 0.8) 0%, rgba(0, 175, 70, 0.2) 100%),
+            linear-gradient(135deg, #6a5af9, 0%, #ca2e41 45%, #4dcaab 100%);
 }
 
 .hero__content {
