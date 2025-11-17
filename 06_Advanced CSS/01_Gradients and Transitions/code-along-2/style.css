@@ -20,8 +20,8 @@ body {
     background-size: cover;
 
     background-image:
-            radial-gradient(circle at 10% 20%, rgba(40, 70, 100, 0.8) 20%, rgba(0, 175, 70, 0.2) 100%),
-            linear-gradient(135deg, #6a5af9, 0%, #ca2e41 45%, chocolate 100%);
+            radial-gradient(circle at 0% 30%, rgba(129, 167, 204, 0.8) 5%, rgba(30, 215, 0, 0.2) 60%),
+            linear-gradient(135deg, #180a41, 0%, #050528 45%, chocolate 100%);
 }
 
 .hero__content {
